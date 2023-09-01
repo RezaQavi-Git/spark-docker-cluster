@@ -17,6 +17,12 @@ Sets an environment variable SPARK_MASTER to specify the Spark master's location
 
 This YAML file provides the basic configuration to set up a Spark cluster with one master and one worker node, making it easy to run Spark applications in a containerized environment.
 
+## Run Command
+To use this simple yaml file run below command:
+```bash
+docker-compose -f spark-docker-compose.yaml up {-d opstional}
+```
+
 ## Submit Code
 
 To run pyspark code run on this cluster, you can use below command:
